@@ -1,42 +1,18 @@
 # Microcontroladores
-## Divisão de 2 números e resultado com uma casa decimal
-Objetivo: Exercício com algoritmo para posterior implementação com microcontrolador.
-Contexto: Dados dois valores, proponha um ALGORITMO que descreva as instruções necessárias para
-efetuar a divisão desses números, fornecendo o resultado com precisão de uma casa decimal.
-Especificações:
-X Y
-B
-A
-= ,
-• Numerador e denominador são números inteiros, com valores entre 0 e 255 (um byte);
-• O resultado deve ser armazenado em duas variáveis inteiras, sendo uma para armazenar a parte
-inteira da divisão e a outra para armazenar a parte decimal, conforme exemplos abaixo;
-A B Resultado Arredondado X Y
-9 5 1,8 1,8 1 8
-15 4 3,75 3,8 3 8
-8 3 2,66667 2,7 2 7
-241 40 6,025 6,0 6 0
-• As regras de arredondamento devem ser utilizadas;
-• O ALGORITMO deve ser escrito em Portugol (pseudocódigo escrito em português);
-• Pela própria definição, o ALGORITMO deve ter uma sequência de passos descritivos, ordenados e
-sem ambiguidade;
-• Os passos descritivos não podem conter ações abstratas ou que impliquem na utilização de outras
-operações diferentes das aritméticas (+, -, *, /). Estruturas condicionais e de repetição são permitidas. 
 
-## Identificando diferentes frequências (data de entrega: 12/02/19)
-Objetivo: Exercícios para gerenciamento de portas e de timers.
-Contexto: Dado um sinal de onda quadrada, que opera em 4 diferentes frequências, identificá-las com a
-sinalização através de LEDs.
-Especificações:
-• As frequências a serem verificadas são: 5kHz, 10kHz, 20kHz e 30kHz;
-• A porta de entrada que receberá o sinal deve ser através de GP2;
-• Os LEDs devem ser ativados (ON) apenas para indicar sua frequência correspondente, de
-acordo com a tabela abaixo:
-GP0 ON para f=5kHz
-GP1 ON para f=10kHz
-GP4 ON para f=20kHz
-GP5 ON para f=30kHz
-• A tolerância ao erro será uma variação de 10% sobre a frequência identificada; 
+## Identificando diferentes frequências
+  
+  Objetivo: Exercícios para gerenciamento de portas e de timers.
+  Contexto: Dado um sinal de onda quadrada, que opera em 4 diferentes frequências, identificá-las com a sinalização através de LEDs.
+  Especificações:
+  • As frequências a serem verificadas são: 5kHz, 10kHz, 20kHz e 30kHz;
+  • A porta de entrada que receberá o sinal deve ser através de GP2;
+  • Os LEDs devem ser ativados (ON) apenas para indicar sua frequência correspondente, de acordo com a tabela abaixo:
+  GP0 ON para f=5kHz
+  GP1 ON para f=10kHz
+  GP4 ON para f=20kHz
+  GP5 ON para f=30kHz
+  • A tolerância ao erro será uma variação de 10% sobre a frequência identificada; 
 
 ## Utilizando a EEPROM 
 Objetivo: Gravar e recuperar dados na memória perene (EEPROM).
