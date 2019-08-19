@@ -5,14 +5,14 @@
     Objetivo: Exercícios para gerenciamento de portas e de timers.
     Contexto: Dado um sinal de onda quadrada, que opera em 4 diferentes frequências, identificá-las com a sinalização através de LEDs.
     Especificações:
-    - As frequências a serem verificadas são: 5kHz, 10kHz, 20kHz e 30kHz;
-    - A porta de entrada que receberá o sinal deve ser através de GP2;
-    - Os LEDs devem ser ativados (ON) apenas para indicar sua frequência correspondente, de acordo com a tabela abaixo:
+    • As frequências a serem verificadas são: 5kHz, 10kHz, 20kHz e 30kHz;
+    • A porta de entrada que receberá o sinal deve ser através de GP2;
+    • Os LEDs devem ser ativados (ON) apenas para indicar sua frequência correspondente, de acordo com a tabela abaixo:
     GP0 ON para f=5kHz
     GP1 ON para f=10kHz
     GP4 ON para f=20kHz
     GP5 ON para f=30kHz
-    - A tolerância ao erro será uma variação de 10% sobre a frequência identificada; 
+    • A tolerância ao erro será uma variação de 10% sobre a frequência identificada; 
 
 ## Conversão de hexadecimal para BCD
 
