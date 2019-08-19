@@ -14,6 +14,17 @@
     GP5 ON para f=30kHz
     - A tolerância ao erro será uma variação de 10% sobre a frequência identificada; 
 
+## Conversão de hexadecimal para BCD
+
+    Objetivo: Exercícios de familiarização com o conjunto de instruções do PIC.
+    Especificações:
+    • Dado um valor em hexadecimal (1 byte), converter esse valor para a notação BCD.
+    • Considera-se que o valor a ser convertido estará armazenado no registrador WORK e, após a
+    conversão, o valor será armazenado na variável DADO;
+    • Se o valor convertido for maior que 99, o registrador WORK será utilizado como byte complementar;
+    • Se o valor convertido for menor que 99, o registrador WORK deverá conter zero
+    • Veja os exemplos:
+
 ## Utilizando a EEPROM 
 
     Objetivo: Gravar e recuperar dados na memória perene (EEPROM).
